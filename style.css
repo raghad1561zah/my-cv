@@ -1,0 +1,74 @@
+body{
+  disply:block;
+  background-color:gray;
+  margin-left: 10%;
+  margin-right: 10%;
+  filter: drop-shadow(1px 20px 20px black);
+}
+header{
+height: 300px;
+background-image: url(" 23j.jpg ");
+background-size: cover;
+display: grid;
+}
+h2.name{ color: black;
+font-size: 80px;
+justify-self: center; }
+article{background-color: black
+display:black}
+.profile{
+height: 700px;
+padding: 5%;
+display: flex;
+  justify-items:center;
+  align-items: center;
+  background-image: url("op.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.avatar{height: 70%;
+width: 100%;
+box-shadow: 10px 10px 79px 4px black;
+background-image: url("llk.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+ }
+ .summry{height: 70%;
+ width: 100%;
+color:white;
+padding-left: 5%;}
+.education{height: 500px;
+
+padding:3%;
+display: flex;
+align-items: center;
+justify-items:center;
+background-image: url("l.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+color:black;
+}
+.box{
+padding: 3%;
+box-shadow: 4px 5px 90px -3px black;
+display: grid;
+grid-template-columns: 1fr 4fr 4fr ;
+grid-template-rows: 1fr 4fr;
+grid-template-areas:
+"tital . ."
+". col1 col2";
+justify-items:center;
+align-items: center;
+height: 70%;
+width: 80%;
+background-color: white;
+
+
+}
+.edu1{grid-area:col1;
+border: dashed blue thin;
+padding: 20px;}
+.edu2{grid-area:col2;
+border: dashed blue thin;
+padding: 20px;}.education h1 {grid-area:tital;}
